@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9a5fef68-2e0c-4ea5-96be-17bedcc6836c" name="Default" comment="" />
     <ignored path="SandboxNasaKua.iws" />
@@ -48,9 +53,12 @@
       <file leaf-file-name="MyApplication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/DavidLieTjauwWustlEdu/SandboxNasaKua/MyApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="475">
               <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-              <folding />
+              <folding>
+                <element signature="e#1095#1096#0" expanded="true" />
+                <element signature="e#1162#1163#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -2180,9 +2188,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/DavidLieTjauwWustlEdu/SandboxNasaKua/MyApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="475">
           <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-          <folding />
+          <folding>
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
