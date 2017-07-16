@@ -1,5 +1,29 @@
 [
     {
+        "outputFile": "C:\\Users\\David Lie-Tjauw\\Desktop\\github_repos\\SandboxNasaKua\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 112,
+                    "endOffset": 163
+                },
+                "from": {
+                    "file": "C:\\Users\\David Lie-Tjauw\\.android\\build-cache\\220922868909442048bda32feb5c207025894452\\output\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 298,
+                        "endColumn": 112,
+                        "endOffset": 406
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "C:\\Users\\David Lie-Tjauw\\Desktop\\android examples\\SandboxNasaKua\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
         "map": [
             {
