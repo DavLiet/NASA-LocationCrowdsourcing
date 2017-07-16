@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:2:1-31:12
 	package
 		ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:3:5-55
 		INJECTED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml
@@ -13,73 +13,336 @@ ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\
 	android:versionCode
 		INJECTED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:7:22-78
 application
-ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:5:5-23:19
+ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:11:5-29:19
+MERGED from [com.google.android.gms:play-services:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\291c9497f4c789729fdf3ebeb1cb074bb09d2928\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\b73e10b73f7f7b5c8a3704bfc39fe109300bd108\output\AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\e63a7cebf3b2c3650760d81ab8ac03eaaaaf6054\output\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c20909abad8b00077f9a14241cbbfb5ea1c0ad8c\output\AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\ea3f8b1e1916114a0c9eefcceab489cb4ecded9e\output\AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-cast-framework:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\20349bad4a51822d2d8d79088ad40999afefaf75\output\AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\5f8a112140448f2048e7ae1826f6e1d25c714099\output\AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:mediarouter-v7:25.2.0] C:\Users\David Lie-Tjauw\.android\build-cache\6d1bcc6088d35e9d53a02179bab3e282ff8d13c7\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:palette-v7:25.2.0] C:\Users\David Lie-Tjauw\.android\build-cache\4d75cc84c3effa5c7c291ca7d4aa45f9c3055621\output\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\eae31c44caf15f96afc565d6bf964bdb471ac458\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\d0851d60a03ad79b341152406336d0d71152225e\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\f23efbf08e01396c29c54298d49047f38d06e0e2\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-crash:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\556c086702e4d4f62e361537e3d599434873a71c\output\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-auth:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\ee0bfe46fda0cefd9ae287d3b5a91167fc64889e\output\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-dynamic-links:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\ccf10442402a2c7ded22679f82927a664b17fcf0\output\AndroidManifest.xml:5:3-17
+MERGED from [com.google.firebase:firebase-messaging:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\d56ac065db668c1196e5d38e3cc3421230060006\output\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-fitness:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c8819dca1a61f07343e5ae48ff85a856d01ad929\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c0b65cd1c1bc8a02ef5660d5b0239f2e5aa3540a\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\ff672403e420090382e7a1de610d5c0593a95ea7\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\54641242431b28c7b910e8e4a3ea08ba7c35cfce\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\f3d8d8390305306a6f28d8ae25a53d72622c42bf\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-appindexing:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\6ad895a27967e948637c9a9352c444b7c6351c85\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\a2c8bb171bcf74f3c2747723c2969e9e31bae0b0\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\a8e1e74e11f5b37095281c7988de46ab8c60fe84\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-nearby:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\dbdfd61f3ce9c47e581f4f361a4846a8501aa2a5\output\AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\ff996dca89c2e5382a9b4076890128fe5adc12ad\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\e8d986c4b60cb062daefb26351fd8fa1b0eb0fab\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\02b3558a1b2c50c953339ac1fcb43ad1a7dd4cfb\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\e6ba00566048adf8c7b8e558a518517ffba92212\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c1d18dd6d0a08695e05351bf0b16a2ed5749cf6a\output\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\6aa3e2911dba279a1a00d17c4482cd73bff2b3be\output\AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\18a5c012ace1dffaed564ca7c7820632fa00efd1\output\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-vision:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\ed075cd5d02514cf03ba8640a27ff4c6b03250d1\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\49326c12d44542eb0e430d3e3c8486060c1dc3bd\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-identity:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\62066e3e4060dd73c1afe434df49d1033a000475\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\8f3103b96bcd4f9b05ea3a70186a5970f1db62cc\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-wearable:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\f39b674114578e00ea55ba7c85adb5e675d14d6b\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\78da2617e91b28a002ae4e2ed90e6f2425b08fd6\output\AndroidManifest.xml:18:5-20:19
 MERGED from [com.android.support:design:23.1.0] C:\Users\David Lie-Tjauw\.android\build-cache\d1fb3f7d931d74d40b1b5cb57f30097ec55639e0\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\David Lie-Tjauw\.android\build-cache\220922868909442048bda32feb5c207025894452\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\David Lie-Tjauw\.android\build-cache\b7a2740db8ef5dc1f8b84792c71b3b56b40b3607\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\David Lie-Tjauw\.android\build-cache\4b7defbccde697240ccfd8612025af0bb2bfb626\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\David Lie-Tjauw\.android\build-cache\d0bab657c2517e4ee0ff8e400c1c51582c9060db\output\AndroidManifest.xml:23:5-20
 MERGED from [com.estimote:sdk:0.9.4] C:\Users\David Lie-Tjauw\.android\build-cache\6dfe73c52c081f6134985af852b10614c99a43ca\output\AndroidManifest.xml:22:5-32:19
-MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\7cec979e91fd36424ab1f51ae53a4ca54c6fae1d\output\AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\86d973ee554e3ce7602874849193b8ada5f66e29\output\AndroidManifest.xml:24:5-33:19
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\4c27bae4a66350c2a763034f4a02e17f7f27550b\output\AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:28:5-50:19
-MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\f0d7a8a387e56e288bfb0f6d954402b3661cf8f4\output\AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\7f0f6ff4906e1a1d2907ec61d2e24d15701d6f11\output\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\dc7a0363bbbcf1d6e0e5fc1ff85da342063e02f4\output\AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:24.0.0] C:\Users\David Lie-Tjauw\.android\build-cache\a5856498cbc692a55d2588fbdde9975214959f1b\output\AndroidManifest.xml:25:5-20
+MERGED from [com.google.firebase:firebase-core:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\b25c59491d8de96c78486bdcca304be0cf372b15\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\08cbc0ab7b28776f78e282283020fb7101440bae\output\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\d61117f50e1a744f31422c6f5f50d57b70903ed5\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\d0df7898734c7f0c4caf1b0fa9cd3c5f251bf249\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\92b6dc97c6731d9b9480a0fc89c953c9cca12a6a\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\956324c427a6996e988a4b6ccf6e971a71a5ef34\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\David Lie-Tjauw\.android\build-cache\12d9841566b64fa115bb0922153f67922fc5a9f5\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\David Lie-Tjauw\.android\build-cache\182883abe441a1dba6ec72eedbcee4df6cd70bfb\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\David Lie-Tjauw\.android\build-cache\a0606744e286b6ba4262ab1cf6e6cb66a9551588\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\David Lie-Tjauw\.android\build-cache\4501880130316644adccde5880a5d3602bc18220\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\David Lie-Tjauw\.android\build-cache\9dac44b9e4138b825939621ef04612cfe2bd1a36\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\David Lie-Tjauw\.android\build-cache\0ec40e1b2afef50cf5982b6ed3d001377e393ec7\output\AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:15:9-41
 	android:supportsRtl
-		ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:16:9-35
 	android:allowBackup
-		ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:13:9-35
 	android:icon
-		ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:8:9-43
+		ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:14:9-43
 	android:theme
-		ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:17:9-40
 	android:name
-		ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:6:9-38
+		ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:12:9-38
 activity#com.DavidLieTjauwWustlEdu.SandboxNasaKua.MainActivity
-ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:13:9-21:20
+ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:19:9-27:20
 	android:label
-		ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:15:13-45
+		ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:21:13-45
 	android:theme
-		ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:16:13-56
+		ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:22:13-56
 	android:name
-		ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:14:13-41
+		ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:20:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:17:13-20:29
+ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:23:13-26:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml:25:27-74
 uses-sdk
 INJECTED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.google.android.gms:play-services:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\291c9497f4c789729fdf3ebeb1cb074bb09d2928\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\fc21282dd5cce5e47225c2fd34eefaf24e3e1cb7\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\b73e10b73f7f7b5c8a3704bfc39fe109300bd108\output\AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\e63a7cebf3b2c3650760d81ab8ac03eaaaaf6054\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c20909abad8b00077f9a14241cbbfb5ea1c0ad8c\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\756bda74b3e65638d93b6cff3aebaaa748940118\output\AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\ea3f8b1e1916114a0c9eefcceab489cb4ecded9e\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\9d3fb407f4d8a5d482a9c69850ec28c5399d3ae0\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\20349bad4a51822d2d8d79088ad40999afefaf75\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\5f8a112140448f2048e7ae1826f6e1d25c714099\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:mediarouter-v7:25.2.0] C:\Users\David Lie-Tjauw\.android\build-cache\6d1bcc6088d35e9d53a02179bab3e282ff8d13c7\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:25.2.0] C:\Users\David Lie-Tjauw\.android\build-cache\4d75cc84c3effa5c7c291ca7d4aa45f9c3055621\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\eae31c44caf15f96afc565d6bf964bdb471ac458\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\d0851d60a03ad79b341152406336d0d71152225e\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-awareness:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\f23efbf08e01396c29c54298d49047f38d06e0e2\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-crash:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\556c086702e4d4f62e361537e3d599434873a71c\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-auth:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\ee0bfe46fda0cefd9ae287d3b5a91167fc64889e\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-dynamic-links:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\ccf10442402a2c7ded22679f82927a664b17fcf0\output\AndroidManifest.xml:3:3-41
+MERGED from [com.google.firebase:firebase-messaging:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\d56ac065db668c1196e5d38e3cc3421230060006\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-storage:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\5032896f5af2941332c12401bc9e3568a72717db\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\59681f131aec1c3aad7e4392868d4ac9a72f165b\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-fitness:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c8819dca1a61f07343e5ae48ff85a856d01ad929\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c0b65cd1c1bc8a02ef5660d5b0239f2e5aa3540a\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\ff672403e420090382e7a1de610d5c0593a95ea7\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\54641242431b28c7b910e8e4a3ea08ba7c35cfce\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\f3d8d8390305306a6f28d8ae25a53d72622c42bf\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\6ad895a27967e948637c9a9352c444b7c6351c85\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\a2c8bb171bcf74f3c2747723c2969e9e31bae0b0\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\ef92740250941ed4e2ed6814fc7389531abea448\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\a8e1e74e11f5b37095281c7988de46ab8c60fe84\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-nearby:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\dbdfd61f3ce9c47e581f4f361a4846a8501aa2a5\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-panorama:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\ff996dca89c2e5382a9b4076890128fe5adc12ad\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\e8d986c4b60cb062daefb26351fd8fa1b0eb0fab\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\02b3558a1b2c50c953339ac1fcb43ad1a7dd4cfb\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\e6ba00566048adf8c7b8e558a518517ffba92212\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\90e306eb631cbf047ec1ba666757cab3ce403796\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c1d18dd6d0a08695e05351bf0b16a2ed5749cf6a\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\6aa3e2911dba279a1a00d17c4482cd73bff2b3be\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\18a5c012ace1dffaed564ca7c7820632fa00efd1\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-vision:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\ed075cd5d02514cf03ba8640a27ff4c6b03250d1\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\49326c12d44542eb0e430d3e3c8486060c1dc3bd\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-wallet:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\ef0e2fea7b219d04a0f9338c7f3569d51ae58edc\output\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-identity:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\62066e3e4060dd73c1afe434df49d1033a000475\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\8f3103b96bcd4f9b05ea3a70186a5970f1db62cc\output\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-wearable:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\f39b674114578e00ea55ba7c85adb5e675d14d6b\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\78da2617e91b28a002ae4e2ed90e6f2425b08fd6\output\AndroidManifest.xml:17:5-43
 MERGED from [com.android.support:design:23.1.0] C:\Users\David Lie-Tjauw\.android\build-cache\d1fb3f7d931d74d40b1b5cb57f30097ec55639e0\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\David Lie-Tjauw\.android\build-cache\220922868909442048bda32feb5c207025894452\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\David Lie-Tjauw\.android\build-cache\b7a2740db8ef5dc1f8b84792c71b3b56b40b3607\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\David Lie-Tjauw\.android\build-cache\4b7defbccde697240ccfd8612025af0bb2bfb626\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\David Lie-Tjauw\.android\build-cache\d0bab657c2517e4ee0ff8e400c1c51582c9060db\output\AndroidManifest.xml:21:5-43
 MERGED from [com.android.support:recyclerview-v7:23.1.0] C:\Users\David Lie-Tjauw\.android\build-cache\c975636444ee0fcb248191f537b64c93cfc385a9\output\AndroidManifest.xml:20:5-43
 MERGED from [com.estimote:sdk:0.9.4] C:\Users\David Lie-Tjauw\.android\build-cache\6dfe73c52c081f6134985af852b10614c99a43ca\output\AndroidManifest.xml:7:5-43
-MERGED from [com.google.firebase:firebase-database:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\8171729e92f3f923c91e1a9c6542b868a3f15fe7\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-database-connection:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\f476f5442205b7691b025fab95664ec4a0d1ab4c\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\7cec979e91fd36424ab1f51ae53a4ca54c6fae1d\output\AndroidManifest.xml:4:5-42
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\86d973ee554e3ce7602874849193b8ada5f66e29\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\4c27bae4a66350c2a763034f4a02e17f7f27550b\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\f0d7a8a387e56e288bfb0f6d954402b3661cf8f4\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\7f0f6ff4906e1a1d2907ec61d2e24d15701d6f11\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\dc7a0363bbbcf1d6e0e5fc1ff85da342063e02f4\output\AndroidManifest.xml:17:5-42
-MERGED from [com.android.support:support-v4:24.0.0] C:\Users\David Lie-Tjauw\.android\build-cache\a5856498cbc692a55d2588fbdde9975214959f1b\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.firebase:firebase-database:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\4c68f536443a00599ade4b74b3cf8958c92321c8\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\afdd6814be6b9e0630459cdafc11636e46316a61\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-core:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\b25c59491d8de96c78486bdcca304be0cf372b15\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\08cbc0ab7b28776f78e282283020fb7101440bae\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\d61117f50e1a744f31422c6f5f50d57b70903ed5\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\d0df7898734c7f0c4caf1b0fa9cd3c5f251bf249\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\92b6dc97c6731d9b9480a0fc89c953c9cca12a6a\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\956324c427a6996e988a4b6ccf6e971a71a5ef34\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\David Lie-Tjauw\.android\build-cache\12d9841566b64fa115bb0922153f67922fc5a9f5\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\David Lie-Tjauw\.android\build-cache\182883abe441a1dba6ec72eedbcee4df6cd70bfb\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\David Lie-Tjauw\.android\build-cache\a0606744e286b6ba4262ab1cf6e6cb66a9551588\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\David Lie-Tjauw\.android\build-cache\4501880130316644adccde5880a5d3602bc18220\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\David Lie-Tjauw\.android\build-cache\9dac44b9e4138b825939621ef04612cfe2bd1a36\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\David Lie-Tjauw\.android\build-cache\0ec40e1b2afef50cf5982b6ed3d001377e393ec7\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:support-v4:24.0.0] C:\Users\David Lie-Tjauw\.android\build-cache\a5856498cbc692a55d2588fbdde9975214959f1b\output\AndroidManifest.xml:23:9-51
+		ADDED from [com.android.support:appcompat-v7:25.2.0] C:\Users\David Lie-Tjauw\.android\build-cache\b7a2740db8ef5dc1f8b84792c71b3b56b40b3607\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-ads-lite:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\b73e10b73f7f7b5c8a3704bfc39fe109300bd108\output\AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\e63a7cebf3b2c3650760d81ab8ac03eaaaaf6054\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c20909abad8b00077f9a14241cbbfb5ea1c0ad8c\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\556c086702e4d4f62e361537e3d599434873a71c\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\f3d8d8390305306a6f28d8ae25a53d72622c42bf\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\a2c8bb171bcf74f3c2747723c2969e9e31bae0b0\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c1d18dd6d0a08695e05351bf0b16a2ed5749cf6a\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\18a5c012ace1dffaed564ca7c7820632fa00efd1\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\8f3103b96bcd4f9b05ea3a70186a5970f1db62cc\output\AndroidManifest.xml:20:5-66
+MERGED from [com.estimote:sdk:0.9.4] C:\Users\David Lie-Tjauw\.android\build-cache\6dfe73c52c081f6134985af852b10614c99a43ca\output\AndroidManifest.xml:15:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\08cbc0ab7b28776f78e282283020fb7101440bae\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\d61117f50e1a744f31422c6f5f50d57b70903ed5\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\b73e10b73f7f7b5c8a3704bfc39fe109300bd108\output\AndroidManifest.xml:19:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-ads-lite:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\b73e10b73f7f7b5c8a3704bfc39fe109300bd108\output\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\e63a7cebf3b2c3650760d81ab8ac03eaaaaf6054\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-nearby:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\dbdfd61f3ce9c47e581f4f361a4846a8501aa2a5\output\AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c1d18dd6d0a08695e05351bf0b16a2ed5749cf6a\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\18a5c012ace1dffaed564ca7c7820632fa00efd1\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\8f3103b96bcd4f9b05ea3a70186a5970f1db62cc\output\AndroidManifest.xml:19:5-78
+MERGED from [com.estimote:sdk:0.9.4] C:\Users\David Lie-Tjauw\.android\build-cache\6dfe73c52c081f6134985af852b10614c99a43ca\output\AndroidManifest.xml:16:5-79
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\08cbc0ab7b28776f78e282283020fb7101440bae\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\d61117f50e1a744f31422c6f5f50d57b70903ed5\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\b73e10b73f7f7b5c8a3704bfc39fe109300bd108\output\AndroidManifest.xml:20:22-76
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\b73e10b73f7f7b5c8a3704bfc39fe109300bd108\output\AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\b73e10b73f7f7b5c8a3704bfc39fe109300bd108\output\AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\b73e10b73f7f7b5c8a3704bfc39fe109300bd108\output\AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\b73e10b73f7f7b5c8a3704bfc39fe109300bd108\output\AndroidManifest.xml:25:19-71
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\e63a7cebf3b2c3650760d81ab8ac03eaaaaf6054\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\18a5c012ace1dffaed564ca7c7820632fa00efd1\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\08cbc0ab7b28776f78e282283020fb7101440bae\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\d61117f50e1a744f31422c6f5f50d57b70903ed5\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\e63a7cebf3b2c3650760d81ab8ac03eaaaaf6054\output\AndroidManifest.xml:24:22-65
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c20909abad8b00077f9a14241cbbfb5ea1c0ad8c\output\AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c20909abad8b00077f9a14241cbbfb5ea1c0ad8c\output\AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c20909abad8b00077f9a14241cbbfb5ea1c0ad8c\output\AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c20909abad8b00077f9a14241cbbfb5ea1c0ad8c\output\AndroidManifest.xml:20:19-50
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c20909abad8b00077f9a14241cbbfb5ea1c0ad8c\output\AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c20909abad8b00077f9a14241cbbfb5ea1c0ad8c\output\AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c20909abad8b00077f9a14241cbbfb5ea1c0ad8c\output\AndroidManifest.xml:22:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c20909abad8b00077f9a14241cbbfb5ea1c0ad8c\output\AndroidManifest.xml:23:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c20909abad8b00077f9a14241cbbfb5ea1c0ad8c\output\AndroidManifest.xml:23:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\ea3f8b1e1916114a0c9eefcceab489cb4ecded9e\output\AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\ea3f8b1e1916114a0c9eefcceab489cb4ecded9e\output\AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\ea3f8b1e1916114a0c9eefcceab489cb4ecded9e\output\AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\ea3f8b1e1916114a0c9eefcceab489cb4ecded9e\output\AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\ea3f8b1e1916114a0c9eefcceab489cb4ecded9e\output\AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\ea3f8b1e1916114a0c9eefcceab489cb4ecded9e\output\AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\ea3f8b1e1916114a0c9eefcceab489cb4ecded9e\output\AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\ea3f8b1e1916114a0c9eefcceab489cb4ecded9e\output\AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\ea3f8b1e1916114a0c9eefcceab489cb4ecded9e\output\AndroidManifest.xml:24:18-63
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\20349bad4a51822d2d8d79088ad40999afefaf75\output\AndroidManifest.xml:5:9-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\20349bad4a51822d2d8d79088ad40999afefaf75\output\AndroidManifest.xml:5:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\20349bad4a51822d2d8d79088ad40999afefaf75\output\AndroidManifest.xml:6:9-103
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\20349bad4a51822d2d8d79088ad40999afefaf75\output\AndroidManifest.xml:6:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\20349bad4a51822d2d8d79088ad40999afefaf75\output\AndroidManifest.xml:7:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\20349bad4a51822d2d8d79088ad40999afefaf75\output\AndroidManifest.xml:7:18-90
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\d56ac065db668c1196e5d38e3cc3421230060006\output\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\d56ac065db668c1196e5d38e3cc3421230060006\output\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\d56ac065db668c1196e5d38e3cc3421230060006\output\AndroidManifest.xml:23:18-87
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\d56ac065db668c1196e5d38e3cc3421230060006\output\AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\d56ac065db668c1196e5d38e3cc3421230060006\output\AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\d56ac065db668c1196e5d38e3cc3421230060006\output\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\d56ac065db668c1196e5d38e3cc3421230060006\output\AndroidManifest.xml:25:25-75
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\f3d8d8390305306a6f28d8ae25a53d72622c42bf\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\a2c8bb171bcf74f3c2747723c2969e9e31bae0b0\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\f3d8d8390305306a6f28d8ae25a53d72622c42bf\output\AndroidManifest.xml:20:22-79
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c1d18dd6d0a08695e05351bf0b16a2ed5749cf6a\output\AndroidManifest.xml:24:9-134
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c1d18dd6d0a08695e05351bf0b16a2ed5749cf6a\output\AndroidManifest.xml:24:110-132
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c1d18dd6d0a08695e05351bf0b16a2ed5749cf6a\output\AndroidManifest.xml:24:85-109
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c1d18dd6d0a08695e05351bf0b16a2ed5749cf6a\output\AndroidManifest.xml:24:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c1d18dd6d0a08695e05351bf0b16a2ed5749cf6a\output\AndroidManifest.xml:25:9-32:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c1d18dd6d0a08695e05351bf0b16a2ed5749cf6a\output\AndroidManifest.xml:25:94-117
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c1d18dd6d0a08695e05351bf0b16a2ed5749cf6a\output\AndroidManifest.xml:25:118-142
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c1d18dd6d0a08695e05351bf0b16a2ed5749cf6a\output\AndroidManifest.xml:25:19-93
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c1d18dd6d0a08695e05351bf0b16a2ed5749cf6a\output\AndroidManifest.xml:26:13-31:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c1d18dd6d0a08695e05351bf0b16a2ed5749cf6a\output\AndroidManifest.xml:27:17-71
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c1d18dd6d0a08695e05351bf0b16a2ed5749cf6a\output\AndroidManifest.xml:27:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c1d18dd6d0a08695e05351bf0b16a2ed5749cf6a\output\AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c1d18dd6d0a08695e05351bf0b16a2ed5749cf6a\output\AndroidManifest.xml:28:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c1d18dd6d0a08695e05351bf0b16a2ed5749cf6a\output\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\c1d18dd6d0a08695e05351bf0b16a2ed5749cf6a\output\AndroidManifest.xml:30:27-75
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\8f3103b96bcd4f9b05ea3a70186a5970f1db62cc\output\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\8f3103b96bcd4f9b05ea3a70186a5970f1db62cc\output\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\8f3103b96bcd4f9b05ea3a70186a5970f1db62cc\output\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\78da2617e91b28a002ae4e2ed90e6f2425b08fd6\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\78da2617e91b28a002ae4e2ed90e6f2425b08fd6\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\78da2617e91b28a002ae4e2ed90e6f2425b08fd6\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\78da2617e91b28a002ae4e2ed90e6f2425b08fd6\output\AndroidManifest.xml:19:19-85
 uses-permission#android.permission.BLUETOOTH
 ADDED from [com.estimote:sdk:0.9.4] C:\Users\David Lie-Tjauw\.android\build-cache\6dfe73c52c081f6134985af852b10614c99a43ca\output\AndroidManifest.xml:10:5-68
 	android:name
@@ -92,20 +355,6 @@ uses-permission-sdk-23
 ADDED from [com.estimote:sdk:0.9.4] C:\Users\David Lie-Tjauw\.android\build-cache\6dfe73c52c081f6134985af852b10614c99a43ca\output\AndroidManifest.xml:13:5-88
 	android:name
 		ADDED from [com.estimote:sdk:0.9.4] C:\Users\David Lie-Tjauw\.android\build-cache\6dfe73c52c081f6134985af852b10614c99a43ca\output\AndroidManifest.xml:13:29-85
-uses-permission#android.permission.INTERNET
-ADDED from [com.estimote:sdk:0.9.4] C:\Users\David Lie-Tjauw\.android\build-cache\6dfe73c52c081f6134985af852b10614c99a43ca\output\AndroidManifest.xml:15:5-67
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\86d973ee554e3ce7602874849193b8ada5f66e29\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\4c27bae4a66350c2a763034f4a02e17f7f27550b\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:20:5-66
-	android:name
-		ADDED from [com.estimote:sdk:0.9.4] C:\Users\David Lie-Tjauw\.android\build-cache\6dfe73c52c081f6134985af852b10614c99a43ca\output\AndroidManifest.xml:15:22-64
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.estimote:sdk:0.9.4] C:\Users\David Lie-Tjauw\.android\build-cache\6dfe73c52c081f6134985af852b10614c99a43ca\output\AndroidManifest.xml:16:5-79
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\86d973ee554e3ce7602874849193b8ada5f66e29\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\4c27bae4a66350c2a763034f4a02e17f7f27550b\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:19:5-78
-	android:name
-		ADDED from [com.estimote:sdk:0.9.4] C:\Users\David Lie-Tjauw\.android\build-cache\6dfe73c52c081f6134985af852b10614c99a43ca\output\AndroidManifest.xml:16:22-76
 uses-feature#android.hardware.bluetooth_le
 ADDED from [com.estimote:sdk:0.9.4] C:\Users\David Lie-Tjauw\.android\build-cache\6dfe73c52c081f6134985af852b10614c99a43ca\output\AndroidManifest.xml:18:5-20:36
 	android:required
@@ -128,113 +377,111 @@ receiver#com.estimote.sdk.service.BeaconService$ScanAlarmBroadcastReceiver
 ADDED from [com.estimote:sdk:0.9.4] C:\Users\David Lie-Tjauw\.android\build-cache\6dfe73c52c081f6134985af852b10614c99a43ca\output\AndroidManifest.xml:31:9-102
 	android:name
 		ADDED from [com.estimote:sdk:0.9.4] C:\Users\David Lie-Tjauw\.android\build-cache\6dfe73c52c081f6134985af852b10614c99a43ca\output\AndroidManifest.xml:31:19-99
-uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\86d973ee554e3ce7602874849193b8ada5f66e29\output\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\4c27bae4a66350c2a763034f4a02e17f7f27550b\output\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:21:5-67
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\86d973ee554e3ce7602874849193b8ada5f66e29\output\AndroidManifest.xml:22:22-65
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\86d973ee554e3ce7602874849193b8ada5f66e29\output\AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\4c27bae4a66350c2a763034f4a02e17f7f27550b\output\AndroidManifest.xml:25:7-26:18
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\08cbc0ab7b28776f78e282283020fb7101440bae\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\d61117f50e1a744f31422c6f5f50d57b70903ed5\output\AndroidManifest.xml:25:7-26:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\86d973ee554e3ce7602874849193b8ada5f66e29\output\AndroidManifest.xml:25:90-112
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\08cbc0ab7b28776f78e282283020fb7101440bae\output\AndroidManifest.xml:25:90-112
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\86d973ee554e3ce7602874849193b8ada5f66e29\output\AndroidManifest.xml:25:113-137
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\08cbc0ab7b28776f78e282283020fb7101440bae\output\AndroidManifest.xml:25:113-137
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\86d973ee554e3ce7602874849193b8ada5f66e29\output\AndroidManifest.xml:25:17-89
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\08cbc0ab7b28776f78e282283020fb7101440bae\output\AndroidManifest.xml:25:17-89
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\86d973ee554e3ce7602874849193b8ada5f66e29\output\AndroidManifest.xml:27:7-31:18
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\08cbc0ab7b28776f78e282283020fb7101440bae\output\AndroidManifest.xml:27:7-31:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\86d973ee554e3ce7602874849193b8ada5f66e29\output\AndroidManifest.xml:27:162-184
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\08cbc0ab7b28776f78e282283020fb7101440bae\output\AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\08cbc0ab7b28776f78e282283020fb7101440bae\output\AndroidManifest.xml:27:185-208
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\86d973ee554e3ce7602874849193b8ada5f66e29\output\AndroidManifest.xml:27:105-161
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\08cbc0ab7b28776f78e282283020fb7101440bae\output\AndroidManifest.xml:27:105-161
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\86d973ee554e3ce7602874849193b8ada5f66e29\output\AndroidManifest.xml:27:17-104
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\08cbc0ab7b28776f78e282283020fb7101440bae\output\AndroidManifest.xml:27:17-104
 intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\86d973ee554e3ce7602874849193b8ada5f66e29\output\AndroidManifest.xml:28:11-30:27
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\08cbc0ab7b28776f78e282283020fb7101440bae\output\AndroidManifest.xml:28:11-30:27
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\86d973ee554e3ce7602874849193b8ada5f66e29\output\AndroidManifest.xml:29:15-76
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\08cbc0ab7b28776f78e282283020fb7101440bae\output\AndroidManifest.xml:29:15-76
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\86d973ee554e3ce7602874849193b8ada5f66e29\output\AndroidManifest.xml:29:23-74
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\08cbc0ab7b28776f78e282283020fb7101440bae\output\AndroidManifest.xml:29:23-74
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\86d973ee554e3ce7602874849193b8ada5f66e29\output\AndroidManifest.xml:32:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\4c27bae4a66350c2a763034f4a02e17f7f27550b\output\AndroidManifest.xml:27:7-137
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\08cbc0ab7b28776f78e282283020fb7101440bae\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\d61117f50e1a744f31422c6f5f50d57b70903ed5\output\AndroidManifest.xml:27:7-137
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\86d973ee554e3ce7602874849193b8ada5f66e29\output\AndroidManifest.xml:32:88-110
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\08cbc0ab7b28776f78e282283020fb7101440bae\output\AndroidManifest.xml:32:88-110
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\86d973ee554e3ce7602874849193b8ada5f66e29\output\AndroidManifest.xml:32:111-135
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\08cbc0ab7b28776f78e282283020fb7101440bae\output\AndroidManifest.xml:32:111-135
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\86d973ee554e3ce7602874849193b8ada5f66e29\output\AndroidManifest.xml:32:16-87
-uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:22:5-81
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:22:22-79
-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:24:5-109
-	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:24:72-107
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:24:17-71
-uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:26:5-78
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:26:22-76
-receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:30:9-36:20
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\08cbc0ab7b28776f78e282283020fb7101440bae\output\AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\08cbc0ab7b28776f78e282283020fb7101440bae\output\AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\08cbc0ab7b28776f78e282283020fb7101440bae\output\AndroidManifest.xml:33:148-170
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:30:85-108
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\08cbc0ab7b28776f78e282283020fb7101440bae\output\AndroidManifest.xml:33:171-195
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:30:109-169
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\08cbc0ab7b28776f78e282283020fb7101440bae\output\AndroidManifest.xml:33:91-147
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:30:19-84
-intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:31:13-35:29
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\08cbc0ab7b28776f78e282283020fb7101440bae\output\AndroidManifest.xml:33:16-90
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:31:13-34:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:32:17-80
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:32:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:32:25-78
-action#com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:33:17-85
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:33:25-83
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:32:25-78
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:34:17-60
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:33:17-60
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:34:27-58
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:33:27-58
 receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:40:9-119
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:39:9-119
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:40:93-117
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:39:93-117
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:40:19-92
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:39:19-92
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:44:9-48:19
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:43:9-47:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:44:83-106
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:43:83-106
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:44:18-82
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:43:18-82
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:45:13-47:29
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:44:13-46:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:45:28-51
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:44:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:46:17-79
+ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:45:17-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\1f34579059d60692b3ad64b99defdac610ee53ad\output\AndroidManifest.xml:46:25-77
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\2ad496d8e4960ef98c545292813e3658586b3e17\output\AndroidManifest.xml:45:25-77
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\f0d7a8a387e56e288bfb0f6d954402b3661cf8f4\output\AndroidManifest.xml:6:9-194
+ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\d0df7898734c7f0c4caf1b0fa9cd3c5f251bf249\output\AndroidManifest.xml:6:9-194
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\f0d7a8a387e56e288bfb0f6d954402b3661cf8f4\output\AndroidManifest.xml:6:19-78
+		ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\d0df7898734c7f0c4caf1b0fa9cd3c5f251bf249\output\AndroidManifest.xml:6:19-78
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\f0d7a8a387e56e288bfb0f6d954402b3661cf8f4\output\AndroidManifest.xml:6:144-168
+		ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\d0df7898734c7f0c4caf1b0fa9cd3c5f251bf249\output\AndroidManifest.xml:6:144-168
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\f0d7a8a387e56e288bfb0f6d954402b3661cf8f4\output\AndroidManifest.xml:6:169-192
+		ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\d0df7898734c7f0c4caf1b0fa9cd3c5f251bf249\output\AndroidManifest.xml:6:169-192
 	android:name
-		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\f0d7a8a387e56e288bfb0f6d954402b3661cf8f4\output\AndroidManifest.xml:6:79-143
+		ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\d0df7898734c7f0c4caf1b0fa9cd3c5f251bf249\output\AndroidManifest.xml:6:79-143
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\dc7a0363bbbcf1d6e0e5fc1ff85da342063e02f4\output\AndroidManifest.xml:20:9-121
+ADDED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\956324c427a6996e988a4b6ccf6e971a71a5ef34\output\AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\dc7a0363bbbcf1d6e0e5fc1ff85da342063e02f4\output\AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\956324c427a6996e988a4b6ccf6e971a71a5ef34\output\AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\David Lie-Tjauw\.android\build-cache\dc7a0363bbbcf1d6e0e5fc1ff85da342063e02f4\output\AndroidManifest.xml:20:20-65
+		ADDED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\David Lie-Tjauw\.android\build-cache\956324c427a6996e988a4b6ccf6e971a71a5ef34\output\AndroidManifest.xml:20:20-65

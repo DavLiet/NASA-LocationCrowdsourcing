@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\David Lie-Tjauw\\Desktop\\github_repos\\SandboxNasaKua\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\David Lie-Tjauw\\.android\\build-cache\\b7a2740db8ef5dc1f8b84792c71b3b56b40b3607\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\David Lie-Tjauw\\Desktop\\github_repos\\SandboxNasaKua\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\David Lie-Tjauw\\.android\\build-cache\\b7a2740db8ef5dc1f8b84792c71b3b56b40b3607\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\David Lie-Tjauw\\Desktop\\github_repos\\SandboxNasaKua\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\David Lie-Tjauw\\.android\\build-cache\\b7a2740db8ef5dc1f8b84792c71b3b56b40b3607\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\David Lie-Tjauw\\Desktop\\github_repos\\SandboxNasaKua\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\David Lie-Tjauw\\.android\\build-cache\\b7a2740db8ef5dc1f8b84792c71b3b56b40b3607\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\David Lie-Tjauw\\Desktop\\github_repos\\SandboxNasaKua\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\place_autocomplete_fragment.xml",
+        "source": "C:\\Users\\David Lie-Tjauw\\.android\\build-cache\\e8d986c4b60cb062daefb26351fd8fa1b0eb0fab\\output\\res\\layout-v21\\place_autocomplete_fragment.xml"
+    }
+]

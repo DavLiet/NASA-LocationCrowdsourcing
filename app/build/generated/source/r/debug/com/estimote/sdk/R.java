@@ -8,17 +8,17 @@ package com.estimote.sdk;
 
 public final class R {
     public static final class string {
-        public static final int error_no_bluetooth_enabled = 0x7f06001a;
-        public static final int error_no_bluetooth_le = 0x7f06001b;
-        public static final int error_no_location_permission = 0x7f06001c;
-        public static final int requesting_location_access = 0x7f060023;
-        public static final int requesting_location_access_cancel = 0x7f060024;
-        public static final int requesting_location_access_ok = 0x7f060025;
-        public static final int requesting_location_access_rationale = 0x7f060026;
-        public static final int requesting_location_permission = 0x7f060027;
-        public static final int requesting_location_permission_rationale = 0x7f060028;
+        public static final int error_no_bluetooth_enabled = 0x7f07007b;
+        public static final int error_no_bluetooth_le = 0x7f07007c;
+        public static final int error_no_location_permission = 0x7f07007d;
+        public static final int requesting_location_access = 0x7f070085;
+        public static final int requesting_location_access_cancel = 0x7f070086;
+        public static final int requesting_location_access_ok = 0x7f070087;
+        public static final int requesting_location_access_rationale = 0x7f070088;
+        public static final int requesting_location_permission = 0x7f070089;
+        public static final int requesting_location_permission_rationale = 0x7f07008a;
     }
     public static final class style {
-        public static final int Theme_Transparent = 0x7f0900f7;
+        public static final int Theme_Transparent = 0x7f09012f;
     }
 }
