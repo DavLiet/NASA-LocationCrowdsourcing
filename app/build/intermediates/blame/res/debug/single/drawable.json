@@ -64,12 +64,12 @@
         "source": "C:\\Users\\David Lie-Tjauw\\.android\\build-cache\\220922868909442048bda32feb5c207025894452\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
-        "merged": "C:\\Users\\David Lie-Tjauw\\Desktop\\github_repos\\SandboxNasaKua\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\David Lie-Tjauw\\.android\\build-cache\\220922868909442048bda32feb5c207025894452\\output\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
         "merged": "C:\\Users\\David Lie-Tjauw\\Desktop\\github_repos\\SandboxNasaKua\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
         "source": "C:\\Users\\David Lie-Tjauw\\.android\\build-cache\\d1fb3f7d931d74d40b1b5cb57f30097ec55639e0\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\David Lie-Tjauw\\Desktop\\github_repos\\SandboxNasaKua\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\David Lie-Tjauw\\.android\\build-cache\\220922868909442048bda32feb5c207025894452\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
         "merged": "C:\\Users\\David Lie-Tjauw\\Desktop\\github_repos\\SandboxNasaKua\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",

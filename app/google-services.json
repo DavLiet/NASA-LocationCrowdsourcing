@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "891314186292",
+    "firebase_url": "https://nasa-locationcrowdsource.firebaseio.com",
+    "project_id": "nasa-locationcrowdsource",
+    "storage_bucket": "nasa-locationcrowdsource.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891314186292:android:d0aa865a071f41bf",
+        "android_client_info": {
+          "package_name": "com.DavidLieTjauwWustlEdu.SandboxNasaKua"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891314186292-fngh7ovdnsrpkvu2gpdou0ivm66g8qn2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.DavidLieTjauwWustlEdu.SandboxNasaKua",
+            "certificate_hash": "bfca10bc4bba64d797fb0525f9cb1e60ccbda578"
+          }
+        },
+        {
+          "client_id": "891314186292-o7m1gs58uoksk5kqena938umirirh049.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9PZP_ji9P2QIXrc-C_n4FtzsHPyn1GN4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "891314186292-o7m1gs58uoksk5kqena938umirirh049.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

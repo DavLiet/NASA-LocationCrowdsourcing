@@ -8,12 +8,12 @@
         "source": "C:\\Users\\David Lie-Tjauw\\.android\\build-cache\\d1fb3f7d931d74d40b1b5cb57f30097ec55639e0\\output\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
-        "merged": "C:\\Users\\David Lie-Tjauw\\Desktop\\github_repos\\SandboxNasaKua\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\David Lie-Tjauw\\.android\\build-cache\\220922868909442048bda32feb5c207025894452\\output\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
         "merged": "C:\\Users\\David Lie-Tjauw\\Desktop\\github_repos\\SandboxNasaKua\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
         "source": "C:\\Users\\David Lie-Tjauw\\.android\\build-cache\\220922868909442048bda32feb5c207025894452\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\David Lie-Tjauw\\Desktop\\github_repos\\SandboxNasaKua\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\David Lie-Tjauw\\.android\\build-cache\\220922868909442048bda32feb5c207025894452\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "C:\\Users\\David Lie-Tjauw\\Desktop\\android examples\\SandboxNasaKua\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
