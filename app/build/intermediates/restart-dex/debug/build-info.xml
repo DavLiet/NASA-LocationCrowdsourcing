@@ -6,31 +6,31 @@
     density="xxxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1500243435192"
+    timestamp="1500244178850"
     token="-48473133297694149"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="512" />
+        duration="680" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="450" />
+        duration="596" />
     <task
         name="verifier"
-        duration="181" />
+        duration="228" />
 
     <artifact
         location="C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        location="C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        location="C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
@@ -51,10 +51,10 @@
         location="C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        location="C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        location="C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\build\outputs\apk\app-debug.apk"
@@ -62,16 +62,16 @@
 
     <build
         build-mode="FULL"
-        timestamp="1500243435192"
+        timestamp="1500244178850"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
@@ -92,10 +92,10 @@
             location="C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\David Lie-Tjauw\Desktop\github_repos\SandboxNasaKua\app\build\outputs\apk\app-debug.apk"

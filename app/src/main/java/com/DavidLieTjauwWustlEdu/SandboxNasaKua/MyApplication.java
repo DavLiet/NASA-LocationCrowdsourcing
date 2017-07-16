@@ -11,6 +11,8 @@ import com.estimote.sdk.Beacon;
 import com.estimote.sdk.BeaconManager;
 import com.estimote.sdk.EstimoteSDK;
 import com.estimote.sdk.Region;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.List;
 import java.util.UUID;
@@ -23,21 +25,30 @@ public class MyApplication extends Application {
 
     private BeaconManager beaconManager;
 
+    private DatabaseReference mDatabase; //initialize firebase reference
+
 
     @Override
     public void onCreate() {
         super.onCreate();
+
+
+        mDatabase = FirebaseDatabase.getInstance().getReference();  //points towards root of database
+
+
 
         beaconManager = new BeaconManager(getApplicationContext());
         beaconManager.setMonitoringListener(new BeaconManager.MonitoringListener(){
             @Override
             public void onEnteredRegion(Region region, List<Beacon> list) {
                     showNotification("HERE", "I am");
+                    mDatabase.push().setValue("Arrived");
             }
 
             @Override
             public void onExitedRegion(Region region) {
                 showNotification("Gone", "You are");
+                mDatabase.push().setValue("Left");
             }
 
 
